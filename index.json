@@ -1,5 +1,5 @@
 {
-  "urls": [
+  "storeHouse": [
     { "name": "肥猫", "url": "http://肥猫.net/tv" },
     { "name": "小马", "url": "https://szyyds.cn/tv/x.json" }
   ],
