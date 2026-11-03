@@ -449,7 +449,7 @@
     } 
 ],
 
-# 直播
+直播
     "lives": [
         { "group": "电影轮播", "channels": [ 
         { "name": "周星星","urls": [ "http://wabc.ml/huya.php?id=11342412" ] }, 
