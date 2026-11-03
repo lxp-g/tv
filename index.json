@@ -1,7 +1,7 @@
 {
   "storeHouse": [
   ],
-    "spider": {"https://ghproxy.net/https://raw.githubusercontent.com/dlgt7/maoTV/main/wqcatyuanban.jar"},
+    "spider": "https://ghproxy.net/https://raw.githubusercontent.com/dlgt7/maoTV/main/wqcatyuanban.jar",
     "sites": [
         {"key":"csp_xpath_扛把子影院","name":"扛把子影院(xpf)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://breadmyth.github.io/tv/MeowXP/扛把子影院(xpf).json"},
     ],
