@@ -1,0 +1,84 @@
+{
+  "sites": [
+    {
+      "key": "xyezy",
+      "name": "xyezy资源",
+      "type": 1,
+      "api": "https://xyezy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "maotai999",
+      "name": "maotai999资源",
+      "type": 1,
+      "api": "https://caiji.maotai999.vip/api.php/provide/vod/at/josn/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "apidanaizi_json",
+      "name": "danaizi资源(JSON)",
+      "type": 1,
+      "api": "https://apidanaizi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "apidanaizi_xml",
+      "name": "danaizi资源(XML)",
+      "type": 0,
+      "api": "https://apidanaizi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ckzy",
+      "name": "ck资源",
+      "type": 1,
+      "api": "https://ckzy.me/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "lbapi9",
+      "name": "lb资源(XML)",
+      "type": 0,
+      "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jp98",
+      "name": "精品98",
+      "type": 1,
+      "api": "https://jp98.vip/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "lbjx9解析",
+      "type": 0,
+      "url": "https://lbjx9.com/?url="
+    },
+    {
+      "name": "杰西解析",
+      "type": 0,
+      "url": "https://jiexidanaizi.com/?url="
+    },
+    {
+      "name": "精品98解析",
+      "type": 0,
+      "url": "https://jp998.vip/?url="
+    }
+  ]
+}
