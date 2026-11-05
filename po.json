@@ -37,14 +37,3 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "kk",
-      "name": "直播",
-      "type": 2,
-      "api": "https://svip.ffzyplay.com/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    }
-  ]
-}
