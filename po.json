@@ -1,0 +1,58 @@
+{
+  "sites": [
+    {
+      "key": "lz",
+      "name": "量子资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jj",
+      "name": "哪吒",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/liangzi/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "天",
+      "name": "免费",
+      "type": 1,
+      "api": "https://subojiexi.com/play/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "know",
+      "name": "没有",
+      "type": 1,
+      "api": "https://hhzyjiexi.com/play/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "f",
+      "name": "long",
+      "type": 1,
+      "api": "http://www.qilinzyz.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jh",
+      "name": "哦哟",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ]
+}
