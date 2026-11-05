@@ -11,7 +11,7 @@
     },
     {
       "key": "gh",
-      "name": "非凡",
+      "name": "非凡(xml)",
       "type": 0,
       "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/xml/",
       "searchable": 1,
@@ -19,11 +19,26 @@
       "filterable": 1
     },
     {
-      "key": "nn",
-      "name": "非凡资源",
+      "key": "jj",
+      "name": "非凡影视(带解析)",
       "type": 0,
-      "api": "http://api.ffzyapi.com/api.php/provide/vod/from/feifan/at/xml/",
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
+    }
+  ],
+  "parses": [
+    {
+      "name": "全网通用解析",
+      "type": 1,
+      "url": "Web",
+      "ext": {
+        "flag": ["qq", "youku", "iqiyi", "mgtv", "bilibili"],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+        }
+      }
+    }
+  ]
+}
