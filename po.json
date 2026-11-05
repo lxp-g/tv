@@ -28,6 +28,28 @@
       "filterable": 1
     }
   ],
+  "lives": [
+    {
+      "name": "万象直播",
+      "type": 0,
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u"
+    },
+    {
+      "name": "国内精选",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u"
+    },
+    {
+      "name": "百视通源",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u"
+    },
+    {
+      "name": "河南移动IPTV",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/vnsu/HeNanCMCCIPTV/refs/heads/main/SU.m3u"
+    }
+  ],
   "parses": [
     {
       "name": "全网通用解析",
