@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聚合全网影视搜索播放系统</title>
+    <!-- 引入美化的 Tailwind CSS 框架 -->
+    <script src="https://jsdelivr.net"></script>
+    <style>
+        body { background-color: #121212; color: #e0e0e0; }
+        .vod-card { transition: all 0.3s ease; }
+        .vod-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto">
+        <!-- 头部标题 -->
+        <header class="text-center my-6">
+            <h1 class="text-3xl md:text-5xl font-bold text-amber-500 mb-2">🎬 聚合影视在线搜索</h1>
+            <p class="text-sm text-gray-400">基于多源公共采集接口的多功能影视单页系统</p>
+        </header>
+
+        <!-- 搜索框 -->
+        <div class="flex gap-2 max-w-2xl mx-auto mb-8">
+            <input type="text" id="searchInput" placeholder="输入你想看的电影或电视剧名称..." class="flex-1 p-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-amber-500">
+            <button onclick="startSearch()" class="px-6 py-3 bg-amber-500 hover:bg-amber-600 text-black font-bold rounded-lg transition-colors cursor-pointer">搜索全网</button>
+        </div>
+
+        <!-- 播放器区域（默认隐藏） -->
+        <div id="playerSection" class="hidden mb-8 bg-black p-4 rounded-xl border border-gray-800">
+            <div class="flex justify-between items-center mb-2">
+                <h3 id="playingTitle" class="text-xl font-bold text-amber-400">正在播放</h3>
+                <button onclick="closePlayer()" class="text-gray-400 hover:text-white text-sm bg-gray-800 px-3 py-1 rounded">关闭播放器</button>
+            </div>
+            <!-- 采用通用的 M3U8/通用解析播放器框架，移动端友好 -->
+            <div class="relative w-full aspect-video bg-black rounded-lg overflow-hidden">
+                <iframe id="videoPlayer" src="" class="absolute top-0 left-0 w-full h-full" allowfullscreen border="0" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <!-- 状态提示 -->
+        <div id="statusMessage" class="text-center text-gray-500 my-4 hidden">正在检索各大资源库，请稍候...</div>
+
+        <!-- 搜索结果展示区 -->
+        <div id="resultsGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            <!-- 动态注入影视卡片 -->
+        </div>
+    </div>
+
+    <script>
+        // 你提供的公共采集接口列表（进行了CORS跨域友好格式整合）
+        const apiSources = [
+            { name: "香蕉资源1", url: "https://hsckzy888.com", type: "json" },
+            { name: "香蕉资源2", url: "https://hsckzy888.com/api.php/provide/vod/from/hsckyun/at/json/", type: "json" },
+            { name: "新野资源", url: "https://xyezy.com", type: "json" },
+            { name: "西瓜资源", url: "https://xgzyapi.com", type: "json" }
+        ];
+
+        // 默认的M3U8万能网页播放器解析地址（可自由更换）
+        const universalPlayer = "https://xmflv.cc";
+
+        async function startSearch() {
+            const keyword = document.getElementById('searchInput').value.trim();
+            if (!keyword) {
+                alert('请输入关键词！');
+                return;
+            }
+
+            const grid = document.getElementById('resultsGrid');
+            const status = document.getElementById('statusMessage');
+            grid.innerHTML = '';
+            status.classList.remove('hidden');
+            status.innerText = "🔍 正在多源并发检索中...";
+
+            let hasResults = false;
+
+            // 并发请求所有资源站接口
+            const promises = apiSources.map(async (source) => {
+                try {
+                    // 拼接搜索词参数 wd
+                    const searchUrl = `${source.url}${source.url.includes('?') ? '&' : '?'}wd=${encodeURIComponent(keyword)}`;
+                    const response = await fetch(searchUrl);
+                    if (!response.ok) return;
+                    
+                    const data = await response.json();
+                    if (data && data.list && data.list.length > 0) {
+                        hasResults = true;
+                        renderCards(data.list, source.name);
+                    }
+                } catch (e) {
+                    console.log(`${source.name} 检索失败或接口存在跨域限制`);
+                }
+            });
+
+            await Promise.all(promises);
+            status.classList.add('hidden');
+            
+            if (!hasResults) {
+                grid.innerHTML = `<div class="col-span-full text-center text-gray-500 py-12">未在当前可用接口中检索到相关资源，可能接口需要特定代理。</div>`;
+            }
+        }
+
+        function renderCards(vodList, sourceName) {
+            const grid = document.getElementById('resultsGrid');
+            
+            vodList.forEach(item => {
+                // 部分接口返回的播放地址格式为 "第1集$http://...m3u8#第2集$..."
+                // 提取第一个可用的播放链接
+                let playUrl = "";
+                if (item.vod_play_url) {
+                    const segments = item.vod_play_url.split('#');
+                    const firstEpisode = segments[0].split('$');
+                    playUrl = firstEpisode.length > 1 ? firstEpisode[1] : firstEpisode[0];
+                }
+
+                // 过滤无有效播放链接的视频
+                if (!playUrl || !playUrl.startsWith('http')) return;
+
+                const card = document.createElement('div');
+                card.className = "vod-card bg-gray-900 rounded-lg overflow-hidden border border-gray-800 flex flex-col justify-between cursor-pointer";
+                card.onclick = () => playVideo(item.vod_name, playUrl);
+
+                // 封面图处理（防挂图保护）
+                const picUrl = item.vod_pic && item.vod_pic.startsWith('http') ? item.vod_pic : 'https://placehold.co';
+
+                card.innerHTML = `
+                    <div class="relative w-full aspect-[3/4] bg-gray-800">
+                        <img src="${picUrl}" alt="${item.vod_name}" class="w-full h-full object-cover" onerror="this.src='https://placehold.co{encodeURIComponent(item.vod_name)}'">
+                        <span class="absolute bottom-2 right-2 text-xs bg-black/70 px-2 py-0.5 rounded text-amber-400">${item.vod_remarks || '正片'}</span>
+                    </div>
+                    <div class="p-3">
+                        <h4 class="font-bold text-sm text-white line-clamp-2 mb-1">${item.vod_name}</h4>
+                        <div class="flex justify-between items-center text-[11px] text-gray-500">
+                            <span>${item.type_name || '未知分类'}</span>
+                            <span class="bg-gray-800 px-1.5 py-0.5 rounded text-gray-400">${sourceName}</span>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function playVideo(name, url) {
+            document.getElementById('playerSection').classList.remove('hidden');
+            document.getElementById('playingTitle').innerText = `🎬 正在播放: ${name}`;
+            
+            // 使用通用解析接口包裹 M3U8 链接，防止浏览器跨域拒绝和无法解码
+            const finalPlayUrl = url.includes('.m3u8') || url.includes('.mp4') ? `${universalPlayer}${encodeURIComponent(url)}` : url;
+            document.getElementById('videoPlayer').src = finalPlayUrl;
+            
+            // 自动滚动到播放器位置
+            document.getElementById('playerSection').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function closePlayer() {
+            document.getElementById('playerSection').classList.add('hidden');
+            document.getElementById('videoPlayer').src = "";
+        }
+
+        // 绑定回车键搜索
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') startSearch();
+        });
+    </script>
+</body>
+</html>
