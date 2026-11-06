@@ -1,8 +1,4 @@
-{
-    "spider": "https://gcore.jsdelivr.net/gh/qist/tvbox@master/lib/spider.jar",
-    "logo": "https://avatars.githubusercontent.com/u/138121150",
-    "wallpaper": "https://wallpaper-1tg.pages.dev/api/v1/wallpaper/random",
-    "lives": [
+
         {
             "name": "初秋语·ipv4",
             "type": 0,
