@@ -1,113 +1,113 @@
 {
-        {
-            "name": "初秋语·ipv4",
-            "type": 0,
-            "url": "https://gcore.jsdelivr.net/gh/qist/tvbox@master/lib/iptv.txt"
-        },
-        {
-            "name": "YanG·综合",
-            "type": 0,
-            "url": "https://tv.xxx.com/live.txt"
-        }
-    "sites": [
-        {
-            "key": "site_0_33uu",
-            "name": "【33UU】",
-            "type": 3,
-            "api": "http://www.33uu.tv/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "site_1_zuidazy",
-            "name": "【ZUIDAZY】",
-            "type": 3,
-            "api": "http://zuidazy.net/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "site_2_yongjiuzy",
-            "name": "【YONGJIUZY】",
-            "type": 3,
-            "api": "http://yongjiuzy.net/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "site_3_kuyun",
-            "name": "【KUYUN】",
-            "type": 3,
-            "api": "http://www.kuyun.co/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "site_4_hsckzy888",
-            "name": "【HSCKZY888·hsckyun】",
-            "type": 3,
-            "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckyun/at/json/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "site_5_hsckzy888",
-            "name": "【HSCKZY888·hsckm3u8】",
-            "type": 3,
-            "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "site_6_hsckzy888",
-            "name": "【HSCKZY888·hsckyun】",
-            "type": 3,
-            "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckyun/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "site_7_xyezy",
-            "name": "【XYEZY】",
-            "type": 3,
-            "api": "https://xyezy.com/api.php/provide/vod/?ac=list",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1
-        },
-        {
-            "key": "site_8_qilinzyz",
-            "name": "【QILINZYZ】",
-            "type": 3,
-            "api": "http://www.qilinzyz.com/api.php/provide/vod/?ac=list",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1
-        },
-        {
-            "key": "site_9_caiji",
-            "name": "【CAIJI】",
-            "type": 3,
-            "api": "https://caiji.xgzyapi.com/api.php/provide/vod/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "site_10_caiji",
-            "name": "【CAIJI·xigua】",
-            "type": 3,
-            "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/xml/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        }
-    ]
+  "spider": "https://gcore.jsdelivr.net/gh/qist/tvbox@master/lib/spider.jar",
+  "logo": "https://avatars.githubusercontent.com/u/138121150",
+  "wallpaper": "https://wallpaper-1tg.pages.dev/api/v1/wallpaper/random",
+  "lives": [
+    {
+      "name": "默认直播",
+      "type": 0,
+      "url": "https://gcore.jsdelivr.net/gh/qist/tvbox@master/lib/iptv.txt"
+    }
+  ],
+  "sites": [
+    {
+      "key": "site_33uu",
+      "name": "【33UU】",
+      "type": 3,
+      "api": "http://www.33uu.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "site_zuidazy",
+      "name": "【最大资源】",
+      "type": 3,
+      "api": "http://zuidazy.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "site_yongjiuzy",
+      "name": "【永久资源】",
+      "type": 3,
+      "api": "http://yongjiuzy.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "site_kuyun",
+      "name": "【酷云】",
+      "type": 3,
+      "api": "http://www.kuyun.co/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "site_hsckyun_json",
+      "name": "【HSCK·云播】",
+      "type": 3,
+      "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckyun/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "site_hsckm3u8_json",
+      "name": "【HSCK·M3U8】",
+      "type": 3,
+      "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "site_hsckyun_xml",
+      "name": "【HSCK·云播XML】",
+      "type": 3,
+      "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckyun/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "site_xyezy",
+      "name": "【XYE】",
+      "type": 3,
+      "api": "https://xyezy.com/api.php/provide/vod/?ac=list",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "site_qilinzyz",
+      "name": "【麒麟】",
+      "type": 3,
+      "api": "http://www.qilinzyz.com/api.php/provide/vod/?ac=list",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "site_xgzyapi_xml",
+      "name": "【西瓜XML】",
+      "type": 3,
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "site_xiguam3u8",
+      "name": "【西瓜·M3U8】",
+      "type": 3,
+      "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ]
 }
