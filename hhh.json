@@ -30,7 +30,7 @@
     {
       "key": "site_bfzy",
       "name": "【暴风资源·推荐】",
-      "type": 3,
+      "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -39,7 +39,7 @@
     {
       "key": "site_ffzy",
       "name": "【非凡资源·推荐】",
-      "type": 3,
+      "type": 1,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -48,7 +48,7 @@
     {
       "key": "site_lziapi",
       "name": "【量子资源·推荐】",
-      "type": 3,
+      "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
