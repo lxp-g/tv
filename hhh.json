@@ -3,7 +3,7 @@
     {
       "key": "site_33uu",
       "name": "【33UU】(type 0)",
-      "type": 0,
+      "type": 1,
       "api": "http://www.33uu.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -12,7 +12,7 @@
     {
       "key": "site_zuidazy",
       "name": "【最大资源】(type 0)",
-      "type": 0,
+      "type": 1,
       "api": "http://zuidazy.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -21,7 +21,7 @@
     {
       "key": "site_yongjiuzy",
       "name": "【永久资源】(type 0)",
-      "type": 0,
+      "type": 1,
       "api": "http://yongjiuzy.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -30,7 +30,7 @@
     {
       "key": "site_kuyun",
       "name": "【酷云】(type 0)",
-      "type": 0,
+      "type": 1,
       "api": "http://www.kuyun.co/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
