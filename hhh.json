@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "site_hsckyun",
-      "name": "【HSCK·云播】",
+      "name": "【HSCK·云播(原)】",
       "type": 1,
       "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckyun/at/json/",
       "searchable": 1,
@@ -11,7 +11,7 @@
     },
     {
       "key": "site_hsckm3u8",
-      "name": "【HSCK·M3U8】",
+      "name": "【HSCK·M3U8(原)】",
       "type": 1,
       "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json/",
       "searchable": 1,
@@ -20,7 +20,7 @@
     },
     {
       "key": "site_xyezy",
-      "name": "【XYE】",
+      "name": "【XYE(原)】",
       "type": 1,
       "api": "https://xyezy.com/api.php/provide/vod/",
       "searchable": 1,
@@ -28,28 +28,28 @@
       "filterable": 1
     },
     {
-      "key": "site_bfzy",
-      "name": "【暴风资源·推荐】",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "key": "site_zxzy",
+      "name": "【至臻资源(新)】",
+      "type": 3,
+      "api": "https://zxzy.org/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "site_ffzy",
-      "name": "【非凡资源·推荐】",
-      "type": 1,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "key": "site_hkzy",
+      "name": "【红牛资源(新)】",
+      "type": 3,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "site_lziapi",
-      "name": "【量子资源·推荐】",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "key": "site_wwzy",
+      "name": "【玩偶资源(新)】",
+      "type": 3,
+      "api": "https://api.wwzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
