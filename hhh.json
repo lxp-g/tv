@@ -2,8 +2,8 @@
   "sites": [
     {
       "key": "site_33uu",
-      "name": "【33UU】",
-      "type": 1,
+      "name": "【33UU】(type 0)",
+      "type": 0,
       "api": "http://www.33uu.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -11,8 +11,8 @@
     },
     {
       "key": "site_zuidazy",
-      "name": "【最大资源】",
-      "type": 1,
+      "name": "【最大资源】(type 0)",
+      "type": 0,
       "api": "http://zuidazy.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -20,8 +20,8 @@
     },
     {
       "key": "site_yongjiuzy",
-      "name": "【永久资源】",
-      "type": 1,
+      "name": "【永久资源】(type 0)",
+      "type": 0,
       "api": "http://yongjiuzy.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -29,8 +29,8 @@
     },
     {
       "key": "site_kuyun",
-      "name": "【酷云】",
-      "type": 1,
+      "name": "【酷云】(type 0)",
+      "type": 0,
       "api": "http://www.kuyun.co/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -38,7 +38,7 @@
     },
     {
       "key": "site_hsckyun",
-      "name": "【HSCK·云播】",
+      "name": "【HSCK·云播】(type 1)",
       "type": 1,
       "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckyun/at/json/",
       "searchable": 1,
@@ -47,7 +47,7 @@
     },
     {
       "key": "site_hsckm3u8",
-      "name": "【HSCK·M3U8】",
+      "name": "【HSCK·M3U8】(type 1)",
       "type": 1,
       "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json/",
       "searchable": 1,
@@ -56,7 +56,7 @@
     },
     {
       "key": "site_hsckyun_xml",
-      "name": "【HSCK·云播XML】",
+      "name": "【HSCK·云播XML】(type 1)",
       "type": 1,
       "api": "https://hsckzy888.com/api.php/provide/vod/from/hsckyun/at/xml/",
       "searchable": 1,
@@ -65,7 +65,7 @@
     },
     {
       "key": "site_xyezy",
-      "name": "【XYE】",
+      "name": "【XYE】(type 1)",
       "type": 1,
       "api": "https://xyezy.com/api.php/provide/vod/",
       "searchable": 1,
@@ -74,7 +74,7 @@
     },
     {
       "key": "site_qilinzyz",
-      "name": "【麒麟】",
+      "name": "【麒麟】(type 1)",
       "type": 1,
       "api": "http://www.qilinzyz.com/api.php/provide/vod/",
       "searchable": 1,
@@ -83,8 +83,8 @@
     },
     {
       "key": "site_xgzyapi",
-      "name": "【西瓜XML】",
-      "type": 1,
+      "name": "【西瓜XML】(type 0)",
+      "type": 0,
       "api": "https://caiji.xgzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
@@ -92,8 +92,8 @@
     },
     {
       "key": "site_xiguam3u8",
-      "name": "【西瓜·M3U8】",
-      "type": 1,
+      "name": "【西瓜·M3U8】(type 0)",
+      "type": 0,
       "api": "https://caiji.xgzyapi.com/api.php/provide/vod/from/xiguam3u8/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
