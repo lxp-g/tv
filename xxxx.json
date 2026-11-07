@@ -245,15 +245,6 @@
       "filterable": 1
     },
     {
-      "key": "seMao",
-      "name": "色猫资源",
-      "type": 1,
-      "api": "https://semaozy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "leBo",
       "name": "乐播资源",
       "type": 1,
