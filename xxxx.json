@@ -239,7 +239,7 @@
       "key": "155zy",
       "name": "155资源",
       "type": 1,
-      "api": "https://155zy.com/api.php/provide/vod/",
+      "api": "https://155api.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
