@@ -1,0 +1,293 @@
+{
+  "spider": "",
+  "sites": [
+    {
+      "key": "kanKan",
+      "name": "看看资源",
+      "type": 1,
+      "api": "https://kankanzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xingYe",
+      "name": "星夜资源",
+      "type": 1,
+      "api": "https://xingyezy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jingPin98",
+      "name": "精品98",
+      "type": 1,
+      "api": "https://jp98zy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "mianFei",
+      "name": "免费资源站",
+      "type": 1,
+      "api": "https://mianfeizy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "heiHei",
+      "name": "嘿嘿资源",
+      "type": 1,
+      "api": "https://heiheizy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "huoSu",
+      "name": "火速资源",
+      "type": 1,
+      "api": "https://huosuzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "hongLou",
+      "name": "红楼资源",
+      "type": 1,
+      "api": "https://honglouzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "fanQie",
+      "name": "番茄资源",
+      "type": 1,
+      "api": "https://fanqiezy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "heiLiao",
+      "name": "黑料资源",
+      "type": 1,
+      "api": "https://heiliaozy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "huangSeCangKu",
+      "name": "黄色仓库",
+      "type": 1,
+      "api": "https://huangsecangku.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xiaoJi",
+      "name": "小鸡资源",
+      "type": 1,
+      "api": "https://xiaojizy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "daDi",
+      "name": "大地资源",
+      "type": 1,
+      "api": "https://dadizy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "naiXiangXiang",
+      "name": "奶香香资源",
+      "type": 1,
+      "api": "https://naixiangzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "taoHua",
+      "name": "桃花资源",
+      "type": 1,
+      "api": "https://taohuazy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ckLunLi",
+      "name": "CK伦理",
+      "type": 1,
+      "api": "https://ckzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xingBa",
+      "name": "杏吧资源",
+      "type": 1,
+      "api": "https://xingbazy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "daNaiZi",
+      "name": "大奶子资源",
+      "type": 1,
+      "api": "https://danaizizy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "souAv",
+      "name": "搜av资源",
+      "type": 1,
+      "api": "https://souavzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "aoSiKa",
+      "name": "奥斯卡资源",
+      "type": 1,
+      "api": "https://aosikazy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jkun",
+      "name": "jkun资源",
+      "type": 1,
+      "api": "https://jkunzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "diDi",
+      "name": "滴滴资源网",
+      "type": 1,
+      "api": "https://didizy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "douDou",
+      "name": "豆豆资源",
+      "type": 1,
+      "api": "https://doudouzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jingPinX",
+      "name": "精品x资源",
+      "type": 1,
+      "api": "https://jingpinzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "shaYu",
+      "name": "鲨鱼资源网",
+      "type": 1,
+      "api": "https://shayuzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "laJi",
+      "name": "辣椒资源",
+      "type": 1,
+      "api": "https://lajizy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "senLin",
+      "name": "森林资源",
+      "type": 1,
+      "api": "https://senlinzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "155zy",
+      "name": "155资源",
+      "type": 1,
+      "api": "https://155zy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "seMao",
+      "name": "色猫资源",
+      "type": 1,
+      "api": "https://semaozy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "leBo",
+      "name": "乐播资源",
+      "type": 1,
+      "api": "https://lebozy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yuTu",
+      "name": "玉兔资源",
+      "type": 1,
+      "api": "https://yutuzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "laoSeP",
+      "name": "老色P资源",
+      "type": 1,
+      "api": "https://laosepzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "fanHao",
+      "name": "番号资源",
+      "type": 1,
+      "api": "https://fanhaozy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ]
+    }
