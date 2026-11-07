@@ -59,7 +59,7 @@
       "key": "hongLou",
       "name": "红楼资源",
       "type": 1,
-      "api": "https://honglouzy.com/api.php/provide/vod/",
+      "api": "https://www.hlzy.my/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
