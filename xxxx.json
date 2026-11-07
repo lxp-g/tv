@@ -14,7 +14,7 @@
       "key": "xingYe",
       "name": "星夜资源",
       "type": 1,
-      "api": "https://xingyezy.com/api.php/provide/vod/",
+      "api": "https://xyezy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
