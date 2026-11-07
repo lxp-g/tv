@@ -3,7 +3,7 @@
   "sites": [
     {
       "key": "kanKan",
-      "name": "杏吧资源",
+      "name": "桃花资源",
       "type": 0,
       "api": "https://thzy1.me/api.php/provide/vod/at/xml",
       "searchable": 1,
