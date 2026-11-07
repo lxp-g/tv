@@ -68,7 +68,7 @@
       "key": "fanQie",
       "name": "番茄资源",
       "type": 1,
-      "api": "https://fanqiezy.com/api.php/provide/vod/",
+      "api": "https://fqzy.me//api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
