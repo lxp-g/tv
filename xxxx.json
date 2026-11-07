@@ -284,7 +284,7 @@
       "key": "fanHao",
       "name": "番号资源",
       "type": 1,
-      "api": "https://fanhaozy.com/api.php/provide/vod/",
+      "api": "http://fhapi9.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
