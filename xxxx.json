@@ -5,7 +5,7 @@
       "key": "kanKan",
       "name": "看看资源",
       "type": 1,
-      "api": "https://f-1.cc/api.php/provide/vod/?ac=list",
+      "api": "https://caiji.maotai999.vip/api.php/provide/vod/at/josn/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
