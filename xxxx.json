@@ -23,7 +23,7 @@
       "key": "jingPin98",
       "name": "精品98",
       "type": 1,
-      "api": "https://jp98zy.com/api.php/provide/vod/",
+      "api": "https://jp98.vip/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
