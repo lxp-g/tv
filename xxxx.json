@@ -113,7 +113,7 @@
       "key": "naiXiangXiang",
       "name": "奶香香资源",
       "type": 1,
-      "api": "https://naixiangzy.com/api.php/provide/vod/",
+      "api": "https://naixxzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
