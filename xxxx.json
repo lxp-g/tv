@@ -131,7 +131,7 @@
       "key": "ckLunLi",
       "name": "CK伦理",
       "type": 1,
-      "api": "https://ckzy.com/api.php/provide/vod/",
+      "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
