@@ -10,6 +10,14 @@
       "filterable": 1
     },
     {
+      "key": "ckzy_xml",
+      "name": "创客(XML)",
+      "type": 0,
+      "api": "https://ckzy.me/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "apilsbzy",
       "name": "LSB资源",
       "type": 1,
@@ -19,14 +27,126 @@
       "filterable": 1
     },
     {
+      "key": "apilsbzy_xml",
+      "name": "LSB(XML)",
+      "type": 0,
+      "api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "lsbbf7",
+      "name": "LSB主站",
+      "type": 0,
+      "api": "https://lsbbf7.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "xjzym3u",
+      "name": "小鸡M3U",
+      "type": 0,
+      "api": "https://xjzym3u-api.cdn-xj.cc/mov/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "yayazy",
       "name": "鸭鸭资源",
       "type": 1,
       "api": "https://cj.yayazy.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "parse_url": "https://jx.yayazy.cc/m3u8/?url="
+      "filterable": 1
+    },
+    {
+      "key": "caoliuzy",
+      "name": "草榴资源",
+      "type": 0,
+      "api": "https://caoliuzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "skm3u8",
+      "name": "SK资源",
+      "type": 0,
+      "api": "https://skm3u8.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "155zy",
+      "name": "155资源",
+      "type": 0,
+      "api": "http://155zy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "senlinzy",
+      "name": "森林资源",
+      "type": 0,
+      "api": "https://senlinzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "seyazy",
+      "name": "色鸭资源",
+      "type": 0,
+      "api": "https://seyazy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "ttzy",
+      "name": "天天资源",
+      "type": 0,
+      "api": "http://ttzy.xyz/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "lebozy",
+      "name": "乐播资源",
+      "type": 0,
+      "api": "https://lebozy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "laoyazy",
+      5,
+      "name": "老鸭资源",
+      "type": 0,
+      "api": "https://laoyazy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "thzy",
+      "name": "桃花资源",
+      "type": 0,
+      "api": "https://thzy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "yzzy",
+      "name": "柚子资源",
+      "type": 0,
+      "api": "https://yzzy.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "kanav",
+      "name": "Kanav极品",
+      "type": 0,
+      "api": "https://kanav.ad/index.php/vod/type/id/4.html",
+      "searchable": 1,
+      "quickSearch": 1
     }
   ],
   "parses": [
