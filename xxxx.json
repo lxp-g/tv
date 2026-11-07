@@ -158,7 +158,7 @@
       "key": "souAv",
       "name": "搜av资源",
       "type": 1,
-      "api": "https://souavzy.com/api.php/provide/vod/",
+      "api": "https://api.souavzyw.net/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
