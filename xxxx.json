@@ -76,8 +76,8 @@
     {
       "key": "heiLiao",
       "name": "黑料资源",
-      "type": 1,
-      "api": "https://www.heiliaozyapi.com/api.php/provide/vod/",
+      "type": 0,
+      "api": "https://heiliaozyapi.com/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
