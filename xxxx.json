@@ -203,7 +203,7 @@
       "key": "jingPinX",
       "name": "精品x资源",
       "type": 1,
-      "api": "https://jingpinzy.com/api.php/provide/vod/",
+      "api": "https://www.jingpinx.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
