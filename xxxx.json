@@ -5,7 +5,7 @@
       "key": "kanKan",
       "name": "看看资源",
       "type": 1,
-      "api": "https://kankanzy.com/api.php/provide/vod/",
+      "api": "https://f-1.cc/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
