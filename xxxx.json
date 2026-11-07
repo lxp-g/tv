@@ -149,7 +149,7 @@
       "key": "daNaiZi",
       "name": "大奶子资源",
       "type": 1,
-      "api": "https://danaizizy.com/api.php/provide/vod/",
+      "api": "https://apidanaizi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
