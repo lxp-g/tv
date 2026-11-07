@@ -275,7 +275,7 @@
       "key": "laoSeP",
       "name": "老色P资源",
       "type": 1,
-      "api": "https://laosepzy.com/api.php/provide/vod/",
+      "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
