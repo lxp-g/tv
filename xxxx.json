@@ -32,7 +32,7 @@
       "key": "mianFei",
       "name": "免费资源站",
       "type": 1,
-      "api": "https://mianfeizy.com/api.php/provide/vod/",
+      "api": "https://yuanlib.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
