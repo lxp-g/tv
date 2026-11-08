@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "lz",
-      "name": "量子资源",
+      "name": "黑木耳资源",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod",
       "searchable": 1,
